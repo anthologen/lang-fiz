@@ -1,6 +1,6 @@
 {
   "name": "@formulavize/lang-fiz",
-  "version": "2.3.1",
+  "version": "2.3.2",
   "description": "fiz language support for CodeMirror",
   "scripts": {
     "preinstall": "npx only-allow pnpm",
@@ -20,11 +20,14 @@
   "types": "dist/index.d.ts",
   "sideEffects": false,
   "dependencies": {
-    "@codemirror/language": "^6.13.1",
-    "@formulavize/lezer-fiz": "^2.3.1"
+    "@formulavize/lezer-fiz": "^2.3.2"
+  },
+  "peerDependencies": {
+    "@codemirror/language": "^6.0.0"
   },
   "devDependencies": {
     "@codemirror/buildhelper": "^1.0.2",
+    "@codemirror/language": "^6.13.1",
     "@codemirror/state": "^6.7.6",
     "@lezer/common": "^1.5.5",
     "chokidar-cli": "^3.0.0",
