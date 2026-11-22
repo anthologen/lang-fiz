@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@formulavize/lezer-fiz':
-        specifier: ^2.3.2
-        version: 2.3.2
+        specifier: ^2.3.3
+        version: 2.3.3
     devDependencies:
       '@codemirror/buildhelper':
         specifier: ^1.0.2
@@ -36,9 +36,6 @@ importers:
       npm-run-all:
         specifier: ^4.1.5
         version: 4.1.5
-      only-allow:
-        specifier: ^1.2.2
-        version: 1.2.2
       prettier:
         specifier: ^3.9.10
         version: 3.9.10
@@ -72,9 +69,8 @@ packages:
   '@codemirror/view@6.43.15':
     resolution: {integrity: sha512-HHsfpqFeHyXLs983pSRe38Xajs0vFWZQ2BuX0m7Ki8w3jZ5iD8cuR3lBz2/5/X53Dhf32SBHKh6rtSTB6tKeGw==}
 
-  '@formulavize/lezer-fiz@2.3.2':
-    resolution: {integrity: sha512-LqAk9P0n9ozCZlAZ1v64ulmt8flsyj5gio9hDFmu7yVfqPbRn2XyFN3cCemiW888Ksjf6GvmatCBL/kOOZZ9+g==}
-    engines: {node: '>=26.0', pnpm: '>=12'}
+  '@formulavize/lezer-fiz@2.3.3':
+    resolution: {integrity: sha512-ImlHLWuev5/ALTudapyRNPb4nCD7IOsQVxaHndNWO+k6RhRfdwoVEXYKfiBDPb9PJ/Z/74quUxTkRaXzjyvvuQ==}
 
   '@jridgewell/gen-mapping@0.3.13':
     resolution: {integrity: sha512-2kkt/7niJ6MgEPxF0bYdQ6etZaA+fQvDcLKckhy1yIQOzaoKjBBjSj63/aLVjYE3qhRt5dvM+uUyfCg6UKCBbA==}
@@ -978,10 +974,6 @@ packages:
   once@1.4.0:
     resolution: {integrity: sha512-lNaJgI+2Q5URQBkccEKHTQOPaXdUxnZZElQTZY0MFUAuaEqe1E+Nyvgdz/aIyNi6Z9MzO5dv1H8n58/GELp3+w==}
 
-  only-allow@1.2.2:
-    resolution: {integrity: sha512-uxyNYDsCh5YIJ780G7hC5OHjVUr9reHsbZNMM80L9tZlTpb3hUzb36KXgW4ZUGtJKQnGA3xegmWg1BxhWV0jJA==}
-    hasBin: true
-
   own-keys@1.0.2:
     resolution: {integrity: sha512-19YVAg7T+WTrxggPukVq7DjTv6+PJ867TmhCvBsYwmbFCsZd344rq2Ld1p0wo8f8Qrrhgp82c6FJRqdXWtSEhg==}
     engines: {node: '>= 0.4'}
@@ -1363,10 +1355,6 @@ packages:
   which-module@2.0.1:
     resolution: {integrity: sha512-iBdZ57RDvnOR9AGBhML2vFZf7h8vmBjhoaZqODJBFWHVtKkDmKuHai3cx5PgVMrX5YDNp27AofYbAwctSS+vhQ==}
 
-  which-pm-runs@1.1.0:
-    resolution: {integrity: sha512-n1brCuqClxfFfq/Rb0ICg9giSZqCS+pLtccdag6C2HyufBrh3fBOiy9nb6ggRMvWOVH5GrdJskj5iGTZNxd7SA==}
-    engines: {node: '>=4'}
-
   which-typed-array@1.1.24:
     resolution: {integrity: sha512-wk4Mf4pR5mRP7eYuuTBCIQ9d0ud2Fv2jRLQpfgnRjbOxAFHmjKFValgTpitVKzJJS8ajnYQV2Du1SZ8j6b/EUQ==}
     engines: {node: '>= 0.4'}
@@ -1480,7 +1468,7 @@ snapshots:
       style-mod: 4.1.4
       w3c-keyname: 2.2.8
 
-  '@formulavize/lezer-fiz@2.3.2':
+  '@formulavize/lezer-fiz@2.3.3':
     dependencies:
       '@lezer/highlight': 1.2.5
       '@lezer/lr': 1.4.12
@@ -2429,10 +2417,6 @@ snapshots:
     dependencies:
       wrappy: 1.0.2
 
-  only-allow@1.2.2:
-    dependencies:
-      which-pm-runs: 1.1.0
-
   own-keys@1.0.2:
     dependencies:
       call-bound: 1.0.4
@@ -2921,8 +2905,6 @@ snapshots:
       is-weakset: 2.0.4
 
   which-module@2.0.1: {}
-
-  which-pm-runs@1.1.0: {}
 
   which-typed-array@1.1.24:
     dependencies:
